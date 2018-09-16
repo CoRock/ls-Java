@@ -1,7 +1,7 @@
 package ch10;
 
 /** 
- * final variable : 값을 수정할 수 없음(상수)
+ * final variable: 값을 수정할 수 없음(상수)
  * @author CoRock
  * 
  * 대문자로 작성, 2단어 이상일 경우 _로 연결
