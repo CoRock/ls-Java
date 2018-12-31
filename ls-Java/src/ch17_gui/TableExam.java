@@ -48,7 +48,7 @@ public class TableExam extends JFrame {
 		 * 코드 추가
 		 * 
 		 * String[] title: 표의 제목열(title)
-		 * String[][] data: 표의 데이터(rows)		 * 
+		 * String[][] data: 표의 데이터(rows)
 		 * new JTable(rows, header)
 		 */
 		String[] title = { "번호", "이름", "입사일자" };
