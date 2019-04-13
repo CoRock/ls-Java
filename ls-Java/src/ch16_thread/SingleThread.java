@@ -1,14 +1,12 @@
 package ch16_thread;
 
 /**
- * Single Thread
- * 	working unit is one(only exists main thread)
- * 	be procedurally processed
+ * Single Thread: 작업단위가 1개; 순차적으로 처리됨
  */
 public class SingleThread {
 
 	void print() {
-		// thread name which is ongoing
+		// 현재 실행중인 스레드의 이름
 		System.out.println(Thread.currentThread().getName());
 		for (int i = 1; i <= 5; i++) {
 			System.out.println(i);
